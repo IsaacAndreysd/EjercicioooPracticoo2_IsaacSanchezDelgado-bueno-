@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Cine</title>        
+    </head>
+    <body>
+        <header th:replace="~{layout/plantilla :: header}"/>
+
+        <div class="container">
+            <section>
+                <h1>Bienvenidos al CineProgra</h1>
+                <p>Disfruta de una experiencia  única en nuestro cine. Ofrecemos variedad de películas y funciones para todos los gustos.</p>
+            </section>
+            <section>
+                <h2>Conoce nuestro Cine</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IH3PQdWpXZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </div>
+
+        <footer th:replace="~{layout/plantilla :: footer}"/>          
+    </body>
+</html>
