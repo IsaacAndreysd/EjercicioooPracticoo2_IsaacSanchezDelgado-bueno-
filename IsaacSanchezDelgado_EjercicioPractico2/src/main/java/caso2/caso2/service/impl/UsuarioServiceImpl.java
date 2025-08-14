@@ -5,7 +5,7 @@
 
 package caso2.caso2.service.impl;
 
-import caso2.caso2..dao.RolDao;
+import caso2.caso2.dao.RolDao;
 import caso2.caso2.dao.UsuarioDao;
 import caso2.caso2.domain.Rol;
 import caso2.caso2.domain.Usuario;
